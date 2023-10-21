@@ -38,11 +38,11 @@
                             </div>
                             <div class="modal-body">
                                 <div class="row">
-                                    <div class="col col-md-4 form-group">
+                                    <div class="col col-3 form-group">
                                         <label>Le titre <span class="text-danger">*</span></label>
                                         <input name="title" id="title" type="text" class="form-control input-default " placeholder="Entrez le titre de la question" required>
                                     </div>
-                                    <div class="col col-md-2 form-group">
+                                    <div class="col col-3 form-group">
                                         <label>L'EMD <span class="text-danger">*</span></label>
                                         <select id="select_emd" name="emd" >
                                             <option></option>
@@ -51,19 +51,19 @@
                                             <option value="EMD 3">EMD 3</option>
                                         </select>
                                     </div>
-                                    <div class="col col-md-2 form-group">
+                                    <div class="col col-2 form-group">
                                         <label>L'année<span class="text-danger">*</span></label>
                                         <input name="year" id="year" type="number" class="form-control input-default " placeholder="2024" required>
                                     </div>
-                                    <div class="col col-md-2 form-group">
-                                        <label>Rattrapage <span class="text-danger">*</span></label>
+                                    <div class="col col-2 form-group">
+                                        <label>Ratt <span class="text-danger">*</span></label>
                                         <select id="select_ratt" name="ratt" >
                                             <option></option>
                                             <option value="1" >OUI</option>
                                             <option value="0" selected>NON</option>
                                         </select>
                                     </div>
-                                    <div class="col col-md-2 form-group">
+                                    <div class="col col-2 form-group">
                                         <label>Images</label>
                                         <div></div>
                                         <label>
@@ -119,7 +119,7 @@
                                     </div>
                                 </div>
                                 <hr>
-                               <div class="row">
+                                <div class="row">
                                     <div class="col-6 form-group">
                                         <label>Réponse 2 <span class="text-danger">*</span></label>
                                         <input name="response[]" id="response" type="text" class="form-control form-control" placeholder="entrez la réponse" required>
