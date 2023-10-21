@@ -86,12 +86,14 @@ class QuestionController extends Controller
             }
         }
 
+
         $data=[];
         $j=0;
         for($i=0;$i<count($request->response);$i++){
             $data+=['response'=>$request->response[$i]];
             if($request->is_correct[$j]==$i){
                 $data+=['is_correct'=>'1'];
+               if(count($request->is_correct)-1>$j)
                 $j++;
             }
             else
